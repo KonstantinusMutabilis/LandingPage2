@@ -3,7 +3,7 @@
     background-position: top;
     background-repeat: no-repeat;
     background-size: 110%;
-    height: 700px;
+    height: 800px;
 }
 
 .btn {
@@ -20,6 +20,12 @@
     padding-top: 10%;
 }
 
+@media screen and (max-width:1600px) {
+    .image {
+        height: 700px;
+        background-size: 100%;
+    }
+}
 
 @media screen and (max-width:950px) {
     .image {
